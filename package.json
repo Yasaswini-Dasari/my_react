@@ -1,0 +1,31 @@
+{
+  "name": "Yash",
+  "version": "1.0.0",
+  "description": "\"Namasthe React By akshay saini\"",
+  "homepage": "https://github.com/Yasaswini-Dasari/my_react#readme",
+  "bugs": {
+    "url": "https://github.com/Yasaswini-Dasari/my_react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yasaswini-Dasari/my_react.git"
+  },
+  "license": "ISC",
+  "author": "Yash",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "browserslist": [
+    "last 20 versions"
+  ]
+}

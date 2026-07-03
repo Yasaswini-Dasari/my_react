@@ -1,7 +1,57 @@
-#heading{
-    color: cyan;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid black;
+    padding: 15px;
 }
 
-#heading1{
-    color: peachpuff;
+.logo {
+    height: auto;
+    width: 180px;
+}
+
+.header > ul {
+    display: flex;
+    gap: 20px;   
+    list-style: none;
+    padding: 20px;
+    padding-top: 38;
+    font-size: 20px;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.rest-card:hover {
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.rest-card {
+    flex-wrap: wrap;
+    background-color: rgb(231, 235, 235);
+    width: 300px;
+  
+}
+
+.res-logo {
+    padding: 10px;
+    width: 285px;
+    /* height: 200px; */
+}
+
+.res_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.search {
+    padding: 10px;
+}
+
+.filter {
+    padding: 10px;
 }
