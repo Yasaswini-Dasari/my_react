@@ -1,4 +1,4 @@
-import { useState,useEffect, use } from "react";
+import { useState,useEffect} from "react";
 import RestuarentContainer from "./RestuarentContainer";
 import resList from "../Utils/mockData";
 import Shimmer from "./Shimmer";
