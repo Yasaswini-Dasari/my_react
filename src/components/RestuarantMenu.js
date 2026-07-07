@@ -6,7 +6,6 @@ const RestuarantMenu = () => {
 
     const { id } = useParams();
     const menu1 = menuMap[id];
-    console.log(menu1);
 
     const {name,cuisines, costForTwo } = menu1[0]?.data?.cards[2]?.card?.card?.info;
     const {itemCards} = menu1[0]?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card;
