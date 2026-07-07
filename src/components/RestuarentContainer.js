@@ -3,7 +3,7 @@ import { RES_URL } from "../Utils/constants";
 export const RestuarentContainer = (props) => {
     console.log(props); 
     const {resData} = props  //destucturing it on the fly 
-    const {cloudinaryImageId,name, cuisines, avgRating,sla} = resData?.card?.card?.info;
+    const {id, cloudinaryImageId,name, cuisines, avgRating,sla} = resData?.card?.card?.info;
     return (
         <div className="rest-card">
             <img className="res-logo" alt="image not rendered" src={RES_URL+cloudinaryImageId}/>
